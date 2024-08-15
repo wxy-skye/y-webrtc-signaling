@@ -17,7 +17,7 @@ COPY . .
 RUN chmod +x index.js
 
 # Expose the port the app runs on
-EXPOSE 4444
+EXPOSE 9000
 
 # Command to run the app
 CMD ["node", "index.js"]
